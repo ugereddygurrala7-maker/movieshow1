@@ -1,0 +1,25 @@
+{
+  "name": "cinebook-movie-ticket-booking-system",
+  "version": "1.0.0",
+  "description": "CineBook - Premium Movie Ticket Booking Full Stack PBL Application",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "db:init": "cd backend && npm run db:init",
+    "db:seed": "cd backend && npm run db:seed",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm run start"
+  },
+  "keywords": [
+    "movie-ticket-booking",
+    "full-stack",
+    "react",
+    "vite",
+    "express",
+    "mysql",
+    "socketio",
+    "tailwindcss"
+  ],
+  "author": "CineBook Development Team",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables
+.env
+*/.env
+*.env.local
+
+# Build Outputs
+dist/
+build/
+*/dist/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
